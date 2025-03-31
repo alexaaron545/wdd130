@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #071013;
+  --secondary-color: #3E8989;
+  --accent1-color: #EFF1ED;
+  --accent2-color: #F71735;
+}
+
+body {
+ width: 90%;
+ margin-left: 70px;
+ margin-right: 70px;
+}
+
+h1 {
+  font-family: "boldonse";
+  font-weight: 500;
+  color: var(--accent1-color);
+}
+
+h2, h3 {
+  font-family: "boldonse";
+  font-weight: 500;
+  color: var(--accent2-color);
+}
+
+p, a {
+  font-family: inter;
+}
+
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+ width: 200px;
+ height: auto;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  width: 1130px;
+  height: 500px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  background-color: rgba(7, 16, 19, 0.90);
+  padding-left: 368px;
+  padding-right: 368px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+article {
+  position: absolute;
+  bottom: 80px;
+  left: 120px;
+  background-color: rgba(247, 23, 53, 0.85);
+  width: 850px;
+  height: 200px;
+}
+
+article p {
+  color: var(--accent1-color);
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.hero article img {
+  width: 230px;
+  height: auto;
+  float: right;
+  margin: 20px;
+}
+
+.section-2 img {
+  max-width: 700px;
+}
+
+.social-links a img {
+  width: 50px;
+  height: auto;
+}
+
+.social-links a {
+  text-decoration: none;
+}
