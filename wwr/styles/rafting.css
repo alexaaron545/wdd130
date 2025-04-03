@@ -23,14 +23,39 @@ h2, h3 {
   color: var(--accent2-color);
 }
 
-p, a {
+p, a, figcaption {
   font-family: inter;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 420px 100px;
+  background-color: var(--accent2-color);
+  width: 1130px;
+}
+
+header img {
+  margin-left: 100px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
 
 header nav a {
   text-decoration: none;
-  color: black;
+  color: var(--accent1-color);
+  border-width: 2px;
+  border-right-width: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-style: solid;
+  border-color: var(--accent1-color);
+  font-size: 18px;
 }
 
 .logo {
@@ -61,16 +86,16 @@ header nav a {
 article {
   position: absolute;
   bottom: 80px;
-  left: 120px;
+  left: 50px;
   background-color: rgba(247, 23, 53, 0.85);
-  width: 850px;
+  width: 1030px;
   height: 200px;
 }
 
 article p {
   color: var(--accent1-color);
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 30px;
+  margin-top: 40px;
 }
 
 .hero article img {
@@ -78,14 +103,91 @@ article p {
   height: auto;
   float: right;
   margin: 20px;
+  margin-right: 80px;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-rows: 80px 230px;
+  justify-content: center;
+}
+
+.section-1 h2 {
+  justify-self: center;
+  font-size: 27px;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 400px 300px 400px;
+}
+
+.text-1 {
+  margin-right: 14px;
+  margin-top: 0px;
+}
+
+.text-2 {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.section-1 img {
+  max-width: 300px;
+}
+
+.section-2 {
+  display: grid;
+  grid-template-rows: 70px 160px;
+  justify-content: center;
+  
+}
+
+.section-2 h2 {
+  justify-self: center;
+}
+
+.bottom-grid-section-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 235px);
+}
+
+.bottom-grid-section-2 img {
+  justify-self: center;
+}
+
+.bottom-grid-section-2 figure {
+  text-align: center;
+}
+
+.bottom-grid-section-2 figcaption {
+  display: inline-block;
 }
 
 .section-2 img {
-  max-width: 700px;
+  max-width: 160px;
+}
+
+footer {
+  background-color: var(--accent2-color);
+  display: grid;
+  grid-template-columns: 740px 390px;
+  height: 70px;
+  align-items: center;
+}
+
+footer p {
+  justify-self: right;
+  color: var(--accent1-color);
+}
+
+.social-links {
+  justify-self: right;
+  margin-right: 40px;
 }
 
 .social-links a img {
-  width: 50px;
+  width: 42px;
   height: auto;
 }
 
