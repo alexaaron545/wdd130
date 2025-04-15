@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="contact us page">
+  <meta name="author" content="Alexander Valladares"> 
+  <title>contact us</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" href="images/rafting-site-logo-2.png" type="image/x-icon">
+
+  <style>
+    img {
+      width: 300px;
+      height: auto;
+    }
+    
+    .happy-employees {
+      display: flex;
+    }
+
+    figcaption {
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+    }
+
+    form {
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .submit-button {
+            background-color: #000000;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #000000;
+        }
+
+        header nav a {
+          color: black;
+        }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="images/rafting-site-logo-2.png" alt="Rafting-log">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html" style="border-right-width: 2px;">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <h1 style="color: #F71735;">Contact Us</h1>
+    <p>Address: Carrer Vilanova, s/n, 25595 Llavorsí, Lleida, España</p>
+    <p>Phone: 1-775-218-2643</p>
+    <p>Email: raftingllavorsi@google.com</p>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11767.062603413291!2d1.1952627040596189!3d42.49653458349317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a6009d6a6890af%3A0x5bbc7d7e3ed7b594!2sRafting%20Llavors%C3%AD!5e0!3m2!1ses!2sve!4v1744667376991!5m2!1ses!2sve" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <h2>Our employees are ready to help you!</h2>
+    <div class="happy-employees">
+      <figure><img src="images/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash(1).jpg"><figcaption>Christina</figcaption></figure>
+      <figure><img style="margin-left: 10px; margin-top: 74px;" src="images/clay-banks-POzx_amnWJw-unsplash(1).jpg"><figcaption>Samantha</figcaption></figure>
+      <figure><img style="margin-left: 10px; margin-top: 246px;" src="images/jotform-0skyVR99zP8-unsplash(1).jpg"><figcaption>Nicole</figcaption></figure>
+    </div>
+    <h2>Send us a message</h2>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Your Email Address:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label>Purpose of the Message:</label>
+      <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
+      <label><input type="radio" name="purpose" value="Reservation"> Reservation</label>
+      <label><input type="radio" name="purpose" value="Question"> Question</label>
+      <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+      <button type="submit" class="submit-button">Submit</button>
+</form>
+  </main>
+  <footer>
+    <p style="color: black;">© 2025 🌊 Rapids 🌊 Alexander Valladares</p>
+    <nav class="social-links">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="Facebook">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://x.com/?lang=es">
+        <img src="images/twitter.png" alt="Twitter">
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
