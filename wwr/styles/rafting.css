@@ -23,7 +23,7 @@ h2, h3 {
   color: var(--accent2-color);
 }
 
-p, a, figcaption {
+p, a, figcaption, label, button, th, td {
   font-family: inter;
 }
 
